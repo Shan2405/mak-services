@@ -12,12 +12,24 @@
       "label": "View Our Services",
       "href": "/services"
     },
-    "image": "/images/hero-home.jpg",
+    "image": "/images/hero-home.webp",
     "stats": [
-      { "value": "15+", "label": "Years Experience" },
-      { "value": "1000+", "label": "Happy Clients" },
-      { "value": "50+", "label": "Expert Technicians" },
-      { "value": "24/7", "label": "Emergency Support" }
+      {
+        "value": "15+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "1000+",
+        "label": "Happy Clients"
+      },
+      {
+        "value": "50+",
+        "label": "Expert Technicians"
+      },
+      {
+        "value": "24/7",
+        "label": "Emergency Support"
+      }
     ]
   },
   "servicesSection": {

@@ -9,7 +9,7 @@
       "shortDescription": "Professional cleaning solutions to keep your space fresh, healthy, and well-maintained.",
       "description": "Looking for professional cleaning services for your home? We provide reliable cleaning solutions designed to keep your space fresh, healthy, and well-maintained.",
       "icon": "sparkles",
-      "image": "/images/services/cleaning.jpeg",
+      "image": "/images/services/cleaning.webp",
       "features": [
         "Bathroom cleaning",
         "Kitchen cleaning",
@@ -32,7 +32,7 @@
       "shortDescription": "Expert installation, repair, and replacement for all types of residential flooring.",
       "description": "Recommendation for flooring services you can trust. We handle installation, repair, and replacement for all types of residential flooring.",
       "icon": "layers",
-      "image": "/images/services/flooring.jpg",
+      "image": "/images/services/flooring.webp",
       "features": [
         "Bathroom flooring",
         "Kitchen flooring",
@@ -55,7 +55,7 @@
       "shortDescription": "Professional plumbing repair and maintenance services for common and complex issues.",
       "description": "Looking for plumbing repair or maintenance services? Our team handles common and complex plumbing issues with care and efficiency.",
       "icon": "droplet",
-      "image": "/images/services/plumbing.jpg",
+      "image": "/images/services/plumbing.webp",
       "features": [
         "Bathroom plumbing repair",
         "Kitchen plumbing maintenance",
@@ -78,7 +78,7 @@
       "shortDescription": "Safe and professional electrical services following proper safety standards.",
       "description": "Recommendation for safe and professional electrical services for your home. We follow proper safety standards for every job.",
       "icon": "zap",
-      "image": "/images/services/electrical.jpg",
+      "image": "/images/services/electrical.webp",
       "features": [
         "Electrical repairs",
         "Wiring installation",
@@ -101,7 +101,7 @@
       "shortDescription": "Home renovation services that improve comfort, functionality, and value.",
       "description": "Looking for home renovation services that improve comfort and value? We manage renovation projects with clear planning and skilled execution.",
       "icon": "hammer",
-      "image": "/images/services/renovation.jpg",
+      "image": "/images/services/renovation.webp",
       "features": [
         "Bathroom renovation",
         "Kitchen renovation",
@@ -124,7 +124,7 @@
       "shortDescription": "Strong and visually clean fencing solutions for residential properties.",
       "description": "Recommendation for fence installation and repair services for residential properties. We provide strong and visually clean fencing solutions.",
       "icon": "fence",
-      "image": "/images/services/fence.jpg",
+      "image": "/images/services/fence.webp",
       "features": [
         "Fence installation",
         "Fence repair",
@@ -147,7 +147,7 @@
       "shortDescription": "Efficient garage door repair, installation, and maintenance services.",
       "description": "Looking for garage door repair or maintenance services? We handle mechanical issues and upgrades efficiently.",
       "icon": "door-open",
-      "image": "/images/services/garage-door.jpg",
+      "image": "/images/services/garage-door.webp",
       "features": [
         "Garage door repair",
         "Garage door installation",
@@ -170,7 +170,7 @@
       "shortDescription": "General handyman services for everyday home repairs and maintenance.",
       "description": "Recommendation for general handyman services for everyday home repairs. Ideal for small fixes and ongoing maintenance.",
       "icon": "wrench",
-      "image": "/images/services/handyman.jpg",
+      "image": "/images/services/handyman.webp",
       "features": [
         "General home repairs",
         "Fixture installation",

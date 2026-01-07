@@ -28,9 +28,8 @@ const TestimonialCard: React.FC<TestimonialCardProps> = ({
       {[...Array(5)].map((_, i) => (
         <Star
           key={i}
-          className={`w-4 h-4 ${
-            i < rating ? "text-warning fill-warning" : "text-border"
-          }`}
+          className={`w-4 h-4 ${i < rating ? "text-warning fill-warning" : "text-border"
+            }`}
         />
       ))}
     </div>
@@ -41,7 +40,14 @@ const TestimonialCard: React.FC<TestimonialCardProps> = ({
       <div className={`bg-bg-white border border-border rounded-xl p-5 ${className}`}>
         <div className="flex items-center gap-3 mb-3">
           <div className="w-10 h-10 rounded-full overflow-hidden relative">
-            <Image src={avatar} alt={name} fill className="object-cover" sizes="40px" />
+            <Image
+              src={avatar}
+              alt={name}
+              fill
+              className="object-cover rounded-full"
+              sizes="80px"
+              quality={90}
+            />
           </div>
           <div>
             <div className="font-semibold text-text-primary text-sm">{name}</div>
@@ -69,7 +75,14 @@ const TestimonialCard: React.FC<TestimonialCardProps> = ({
           </blockquote>
           <div className="flex items-center gap-4">
             <div className="w-14 h-14 rounded-full overflow-hidden relative border-2 border-text-white/30">
-              <Image src={avatar} alt={name} fill className="object-cover" sizes="56px" />
+              <Image
+                src={avatar}
+                alt={name}
+                fill
+                className="object-cover rounded-full"
+                sizes="112px"
+                quality={90}
+              />
             </div>
             <div>
               <div className="font-bold">{name}</div>
@@ -101,7 +114,14 @@ const TestimonialCard: React.FC<TestimonialCardProps> = ({
       <div className="flex items-center justify-between pt-4 border-t border-border">
         <div className="flex items-center gap-3">
           <div className="w-12 h-12 rounded-full overflow-hidden relative">
-            <Image src={avatar} alt={name} fill className="object-cover" sizes="48px" />
+            <Image
+              src={avatar}
+              alt={name}
+              fill
+              className="object-cover rounded-full"
+              sizes="96px"
+              quality={90}
+            />
           </div>
           <div>
             <div className="font-semibold text-text-primary">{name}</div>

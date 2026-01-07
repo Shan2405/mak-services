@@ -48,7 +48,7 @@ const PropertyAreas: React.FC = () => {
                 src={area.image}
                 alt={area.name}
                 fill
-                className="object-cover transition-transform duration-500 group-hover:scale-110"
+                className="object-cover rounded-xl transition-transform duration-500 group-hover:scale-110"
                 sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
               />
 

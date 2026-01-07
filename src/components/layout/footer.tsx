@@ -24,14 +24,22 @@ const Footer: React.FC = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-8">
             {/* Company Info */}
             <div className="lg:col-span-1">
-              <Link href="/" className="flex items-center gap-3 mb-6">
-                <div className="relative w-64 h-16">
+              <Link href="/" className="flex items-center gap-3 mb-6 group">
+                <div className="relative w-10 h-10 shrink-0">
                   <Image
-                    src="/logo.webp"
-                    alt="Mark Repair Services Logo"
+                    src="/icon.png"
+                    alt="Mark Repair Services"
                     fill
-                    className="object-contain brightness-0 invert"
+                    className="object-contain"
                   />
+                </div>
+                <div className="flex flex-col text-left -ml-2">
+                  <span className="font-display font-bold text-xl text-text-white group-hover:text-accent transition-colors">
+                    Mark Repair
+                  </span>
+                  <span className="text-xs text-text-light -mt-1">
+                    Services
+                  </span>
                 </div>
               </Link>
               <p className="text-text-light mb-6 leading-relaxed">

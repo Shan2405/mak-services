@@ -54,14 +54,22 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ isOpen, onClose }) => {
       >
         {/* Header */}
         <div className="flex items-center justify-between p-4 border-b  border-border">
-          <Link href="/" onClick={onClose} className="flex items-center gap-2">
-            <div className="relative w-48 h-12">
+          <Link href="/" onClick={onClose} className="flex items-center gap-3 group">
+            <div className="relative w-16 h-16 shrink-0 mt-1">
               <Image
-                src="/logo.webp"
-                alt="Mark Repair Services Logo"
+                src="/icon-blue.png"
+                alt="Mark Repair Services"
                 fill
                 className="object-contain"
               />
+            </div>
+            <div className="flex flex-col text-left -ml-6">
+              <span className="font-display font-bold text-xl text-text-primary group-hover:text-primary transition-colors">
+                Mark Repair
+              </span>
+              <span className="text-xs text-text-muted -mt-1">
+                Services
+              </span>
             </div>
           </Link>
           <button

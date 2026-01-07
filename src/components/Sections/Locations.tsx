@@ -71,7 +71,7 @@ export default function Locations() {
                 <img
                   src={activeLocation.heroImage}
                   alt={`${activeLocation.name} service area`}
-                  className="aspect-4/3 w-full object-cover"
+                  className="aspect-4/3 w-full object-cover rounded-3xl"
                 />
                 <div className="absolute inset-0 bg-linear-to-t from-surface via-transparent to-transparent" />
               </div>

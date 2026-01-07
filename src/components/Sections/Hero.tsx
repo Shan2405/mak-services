@@ -82,7 +82,7 @@ const Hero: React.FC = () => {
                 src={hero.image}
                 alt="Professional home repair services"
                 fill
-                className="object-cover"
+                className="object-cover rounded-2xl"
                 priority
                 sizes="(max-width: 768px) 100vw, 50vw"
               />

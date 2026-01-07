@@ -3,7 +3,7 @@
     "badge": "About Us",
     "title": "Your Trusted Home Service Partner",
     "description": "Mark Repair Services is committed to providing dependable home repair and maintenance solutions. We focus on honest communication, quality work, and customer satisfaction.",
-    "image": "/images/about-hero.jpg"
+    "image": "/images/about-hero.webp"
   },
   "mission": {
     "title": "Our Mission",
@@ -38,7 +38,7 @@
       "What started as a small local operation has grown into a comprehensive home services company serving communities across Texas and Florida. Our growth is built on a foundation of satisfied customers and word-of-mouth recommendations.",
       "Today, we employ over 50 skilled technicians and have completed more than 10,000 projects. But we haven't forgotten our roots – every customer receives the same personalized attention and quality service that built our reputation."
     ],
-    "image": "/images/about-story.jpg"
+    "image": "/images/about-story.webp"
   },
   "team": {
     "title": "Meet Our Leadership",
@@ -48,33 +48,45 @@
         "name": "Mark Johnson",
         "role": "Founder & CEO",
         "bio": "With over 20 years in the home services industry, Mark founded the company with a vision to provide reliable, quality services to homeowners.",
-        "image": "/images/team/mark-johnson.jpg"
+        "image": "/images/team/mark-johnson.webp"
       },
       {
         "name": "Sarah Williams",
         "role": "Operations Director",
         "bio": "Sarah oversees all operations, ensuring every project runs smoothly from start to finish.",
-        "image": "/images/team/sarah-williams.jpg"
+        "image": "/images/team/sarah-williams.webp"
       },
       {
         "name": "David Chen",
         "role": "Technical Director",
         "bio": "David leads our team of technicians, maintaining our high standards of quality and safety.",
-        "image": "/images/team/david-chen.jpg"
+        "image": "/images/team/david-chen.webp"
       },
       {
         "name": "Emily Rodriguez",
         "role": "Customer Success Manager",
         "bio": "Emily ensures every customer has a positive experience from first contact to project completion.",
-        "image": "/images/team/emily-rodriguez.jpg"
+        "image": "/images/team/emily-rodriguez.webp"
       }
     ]
   },
   "stats": [
-    { "value": "15+", "label": "Years of Experience" },
-    { "value": "10,000+", "label": "Projects Completed" },
-    { "value": "50+", "label": "Expert Technicians" },
-    { "value": "98%", "label": "Customer Satisfaction" }
+    {
+      "value": "15+",
+      "label": "Years of Experience"
+    },
+    {
+      "value": "10,000+",
+      "label": "Projects Completed"
+    },
+    {
+      "value": "50+",
+      "label": "Expert Technicians"
+    },
+    {
+      "value": "98%",
+      "label": "Customer Satisfaction"
+    }
   ],
   "certifications": {
     "title": "Licensed & Certified",

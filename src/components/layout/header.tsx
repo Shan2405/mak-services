@@ -8,6 +8,7 @@ import MobileMenu from "./mobileMenu";
 import navigationData from "@/data/navigation.json";
 import siteData from "@/data/siteConfig.json";
 import { Menu, X, ChevronDown, Phone } from "lucide-react";
+import Image from "next/image";
 
 const Header: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -59,10 +60,15 @@ const Header: React.FC = () => {
           <nav className="flex items-center justify-between">
             {/* Logo */}
             <Link href="/" className="flex items-center gap-3 group">
-              <div className="w-10 h-10 bg-gradient-primary rounded-lg flex items-center justify-center">
-                <span className="text-text-white font-bold text-xl">M</span>
+              <div className="relative w-16 h-16 shrink-0 mt-1">
+                <Image
+                  src="/icon-blue.png"
+                  alt="Mark Repair Services"
+                  fill
+                  className="object-contain"
+                />
               </div>
-              <div className="flex flex-col">
+              <div className="flex flex-col -ml-6">
                 <span className="font-display font-bold text-xl text-text-primary group-hover:text-primary transition-colors">
                   Mark Repair
                 </span>

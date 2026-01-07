@@ -13,7 +13,7 @@ const QuickContactModal: React.FC = () => {
       {/* Floating Button */}
       <button
         onClick={() => setIsOpen(true)}
-        className="fixed bottom-6 left-6 cursor-pointer z-fixed w-14 h-14 rounded-full bg-accent text-text-white shadow-lg hover:shadow-xl hover:bg-accent-dark flex items-center justify-center transition-all group"
+        className="fixed bottom-6 left-6 cursor-pointer z-100 w-14 h-14 rounded-full bg-accent text-text-white shadow-lg hover:shadow-xl hover:bg-accent-dark flex items-center justify-center transition-all group"
         aria-label="Quick contact"
       >
         <MessageCircle className="w-6 h-6" />

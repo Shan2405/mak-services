@@ -10,7 +10,7 @@
       "rating": 5,
       "text": "Mark Repair Services did an amazing job on our bathroom renovation. The team was professional, punctual, and the quality of work exceeded our expectations. Highly recommend!",
       "service": "Bathroom Renovation",
-      "avatar": "/images/testimonials/avatar-1.jpg"
+      "avatar": "/images/testimonials/avatar-1.webp"
     },
     {
       "id": 2,
@@ -19,7 +19,7 @@
       "rating": 5,
       "text": "Had an emergency plumbing issue at midnight and they were at my door within 45 minutes. Fixed the problem quickly and the price was fair. Saved us from major water damage!",
       "service": "Emergency Plumbing",
-      "avatar": "/images/testimonials/avatar-2.jpg"
+      "avatar": "/images/testimonials/avatar-2.webp"
     },
     {
       "id": 3,
@@ -28,7 +28,7 @@
       "rating": 5,
       "text": "We've used their handyman services multiple times now. Always reliable, always quality work. It's so nice to have one company we can trust for all our home repair needs.",
       "service": "Handyman Services",
-      "avatar": "/images/testimonials/avatar-3.jpg"
+      "avatar": "/images/testimonials/avatar-3.webp"
     },
     {
       "id": 4,
@@ -37,7 +37,7 @@
       "rating": 5,
       "text": "The flooring installation was flawless. They helped us choose the right materials for our budget and the finished result looks incredible. Very happy customers!",
       "service": "Flooring Installation",
-      "avatar": "/images/testimonials/avatar-4.jpg"
+      "avatar": "/images/testimonials/avatar-4.webp"
     },
     {
       "id": 5,
@@ -46,7 +46,7 @@
       "rating": 5,
       "text": "Professional, clean, and efficient. They installed a new fence around our backyard and it looks beautiful. The crew cleaned up perfectly after finishing.",
       "service": "Fence Installation",
-      "avatar": "/images/testimonials/avatar-5.jpg"
+      "avatar": "/images/testimonials/avatar-5.webp"
     },
     {
       "id": 6,
@@ -55,7 +55,7 @@
       "rating": 5,
       "text": "Excellent electrical work! They upgraded all the outlets in our old home and installed new lighting. Everything was done to code and they explained everything clearly.",
       "service": "Electrical Services",
-      "avatar": "/images/testimonials/avatar-6.jpg"
+      "avatar": "/images/testimonials/avatar-6.webp"
     }
   ],
   "stats": {

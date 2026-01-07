@@ -58,7 +58,7 @@ export default function AboutPage() {
                   src={hero.image}
                   alt="Mark Repair Services Team"
                   fill
-                  className="object-cover"
+                  className="object-cover rounded-2xl"
                   priority
                   sizes="(max-width: 1024px) 100vw, 50vw"
                 />
@@ -109,7 +109,7 @@ export default function AboutPage() {
                   src={story.image}
                   alt="Our Story"
                   fill
-                  className="object-cover"
+                  className="object-cover rounded-2xl"
                   sizes="(max-width: 1024px) 100vw, 50vw"
                 />
               </div>
@@ -133,7 +133,7 @@ export default function AboutPage() {
       </section>
 
       {/* Team Section */}
-      <section className="py-section bg-bg-white">
+      {/* <section className="py-section bg-bg-white">
         <Container>
           <SectionHeader
             title={team.title}
@@ -149,8 +149,9 @@ export default function AboutPage() {
                     src={member.image}
                     alt={member.name}
                     fill
-                    className="object-cover transition-transform duration-300 group-hover:scale-110"
-                    sizes="160px"
+                    className="object-cover rounded-full transition-transform duration-300 group-hover:scale-110"
+                    sizes="320px"
+                    quality={90}
                   />
                 </div>
                 <h3 className="text-lg font-display font-bold text-text-primary mb-1">
@@ -166,7 +167,7 @@ export default function AboutPage() {
             ))}
           </div>
         </Container>
-      </section>
+      </section> */}
 
       {/* Certifications */}
       <section className="py-section bg-secondary">
