@@ -20,7 +20,7 @@ export default function TermsOfServicePage() {
         <Container size="sm">
           <Link
             href="/"
-            className="inline-flex items-center gap-2 text-primary hover:text-primary-dark transition-colors mb-6"
+            className="inline-flex items-center gap-2 text-primary hover:text-primary-hover transition-colors mb-6"
           >
             <ArrowLeft className="w-4 h-4" />
             Back to Home

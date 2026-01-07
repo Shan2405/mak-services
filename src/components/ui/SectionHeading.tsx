@@ -1,24 +1,35 @@
 import React from "react";
 
 interface SectionHeadingProps {
-  title: string;
+  badge?: string;
+  title?: string;
+  headline?: string;
   subtitle?: string;
+  subheadline?: string;
   description?: string;
   align?: "left" | "center" | "right";
   titleSize?: "sm" | "md" | "lg" | "xl";
+  size?: "sm" | "md" | "lg" | "xl";
   className?: string;
   light?: boolean;
 }
 
 const SectionHeading: React.FC<SectionHeadingProps> = ({
+  badge,
   title,
+  headline,
   subtitle,
+  subheadline,
   description,
   align = "center",
-  titleSize = "lg",
+  titleSize,
+  size,
   className = "",
   light = false,
 }) => {
+  const displayTitle = title || headline || "";
+  const displaySubtitle = subtitle || subheadline;
+  const displaySize = (titleSize || size || "lg") as keyof typeof titleSizeClasses;
   const alignClasses = {
     left: "text-left",
     center: "text-center mx-auto",
@@ -46,7 +57,17 @@ const SectionHeading: React.FC<SectionHeadingProps> = ({
 
   return (
     <div className={`max-w-3xl ${alignClasses[align]} ${className}`}>
-      {subtitle && (
+      {badge && (
+        <div
+          className={`
+            inline-flex items-center gap-2 px-4 py-2 rounded-full mb-4
+            ${light ? "bg-white/10 text-white" : "bg-primary/10 text-primary"}
+          `}
+        >
+          <span className="text-sm font-semibold">{badge}</span>
+        </div>
+      )}
+      {displaySubtitle && (
         <span
           className={`
             inline-block
@@ -58,7 +79,7 @@ const SectionHeading: React.FC<SectionHeadingProps> = ({
             ${textColors.subtitle}
           `}
         >
-          {subtitle}
+          {displaySubtitle}
         </span>
       )}
       <h2
@@ -66,11 +87,11 @@ const SectionHeading: React.FC<SectionHeadingProps> = ({
           font-bold
           leading-tight
           mb-4
-          ${titleSizeClasses[titleSize]}
+          ${titleSizeClasses[displaySize]}
           ${textColors.title}
         `}
       >
-        {title}
+        {displayTitle}
       </h2>
       {description && (
         <p

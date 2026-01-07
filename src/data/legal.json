@@ -1,7 +1,7 @@
 {
   "privacyPolicy": {
     "title": "Privacy Policy",
-    "lastUpdated": "January 1, 2024",
+    "lastUpdated": "January 7, 2026",
     "introduction": "Mark Repair Services (\"we\", \"our\", or \"us\") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our services.",
     "sections": [
       {
@@ -89,7 +89,7 @@
         "title": "Contact Us",
         "content": [
           {
-            "text": "If you have any questions about this Privacy Policy, please contact us at privacy@markrepairservices.com or call us at (555) 123-4567."
+            "text": "If you have any questions about this Privacy Policy, please contact us at info@markrepairservices.com or call us at (555) 123-4567."
           }
         ]
       }
@@ -97,7 +97,7 @@
   },
   "termsOfService": {
     "title": "Terms of Service",
-    "lastUpdated": "January 1, 2024",
+    "lastUpdated": "January 7, 2026",
     "introduction": "Welcome to Mark Repair Services. These Terms of Service govern your use of our website and services. By accessing our website or using our services, you agree to be bound by these terms.",
     "sections": [
       {
@@ -192,7 +192,7 @@
         "title": "Contact Information",
         "content": [
           {
-            "text": "For questions about these Terms of Service, please contact us at legal@markrepairservices.com or call us at (555) 123-4567."
+            "text": "For questions about these Terms of Service, please contact us at info@markrepairservices.com or call us at (555) 123-4567."
           }
         ]
       }

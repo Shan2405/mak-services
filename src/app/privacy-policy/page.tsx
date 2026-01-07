@@ -20,7 +20,7 @@ export default function PrivacyPolicyPage() {
         <Container size="sm">
           <Link
             href="/"
-            className="inline-flex items-center gap-2 text-primary hover:text-primary-dark transition-colors mb-6"
+            className="inline-flex items-center gap-2 text-primary hover:text-primary-hover transition-colors mb-6"
           >
             <ArrowLeft className="w-4 h-4" />
             Back to Home
@@ -59,7 +59,7 @@ export default function PrivacyPolicyPage() {
                     {index + 1}. {section.title}
                   </h2>
                   <div className="space-y-4">
-                    {section.content.map((item, itemIndex) => (
+                    {(section.content as Array<{ subtitle?: string; text: string }>).map((item, itemIndex) => (
                       <div key={itemIndex}>
                         {item.subtitle && (
                           <h3 className="text-lg font-semibold text-text-primary mb-2">

@@ -8,30 +8,97 @@
     {
       "id": "texas",
       "name": "Texas",
+      "abbreviation": "TX",
+      "heroImage": "https://images.unsplash.com/photo-1531210483974-4f8c1f33fd24?w=1200&q=80",
       "description": "Our Texas team serves major metropolitan areas and surrounding communities with comprehensive home repair services.",
-      "image": "/images/locations/texas.jpg",
       "phone": "(555) 123-4567",
       "email": "texas@markrepairservices.com",
+      "stats": [
+        {
+          "value": "2.5K+",
+          "label": "Jobs Done"
+        },
+        {
+          "value": "15+",
+          "label": "Cities"
+        },
+        {
+          "value": "4.9/5",
+          "label": "Rating"
+        }
+      ],
+      "features": [
+        "Serving Austin, Dallas, and Houston",
+        "Over 10 years in the Lone Star State",
+        "Specialized in hurricane-resistant roofing",
+        "Fully licensed by the state of Texas"
+      ],
+      "serviceAreas": [
+        "Greater Houston",
+        "Dallas Metroplex",
+        "Austin Hills",
+        "San Antonio"
+      ],
       "cities": [
         {
           "name": "Houston",
+          "available": true,
           "description": "Greater Houston area including surrounding suburbs",
-          "zipCodes": ["77001", "77002", "77003", "77004", "77005"]
+          "zipCodes": [
+            "77001",
+            "77002",
+            "77003",
+            "77004",
+            "77005"
+          ]
         },
         {
           "name": "Dallas",
+          "available": true,
           "description": "Dallas-Fort Worth metroplex",
-          "zipCodes": ["75201", "75202", "75203", "75204", "75205"]
+          "zipCodes": [
+            "75201",
+            "75202",
+            "75203",
+            "75204",
+            "75205"
+          ]
         },
         {
           "name": "Austin",
+          "available": true,
           "description": "Austin metropolitan area",
-          "zipCodes": ["78701", "78702", "78703", "78704", "78705"]
+          "zipCodes": [
+            "78701",
+            "78702",
+            "78703",
+            "78704",
+            "78705"
+          ]
         },
         {
           "name": "San Antonio",
+          "available": true,
           "description": "San Antonio and surrounding areas",
-          "zipCodes": ["78201", "78202", "78203", "78204", "78205"]
+          "zipCodes": [
+            "78201",
+            "78202",
+            "78203",
+            "78204",
+            "78205"
+          ]
+        },
+        {
+          "name": "Fort Worth",
+          "available": false,
+          "description": "Coming soon to Fort Worth",
+          "zipCodes": []
+        },
+        {
+          "name": "El Paso",
+          "available": false,
+          "description": "Future expansion to El Paso",
+          "zipCodes": []
         }
       ],
       "services": [
@@ -48,30 +115,97 @@
     {
       "id": "florida",
       "name": "Florida",
+      "abbreviation": "FL",
+      "heroImage": "https://images.unsplash.com/photo-1543783230-2269e817929d?w=1200&q=80",
       "description": "Our Florida team brings expertise in home services suited to the unique needs of Florida homeowners.",
-      "image": "/images/locations/florida.jpg",
       "phone": "(555) 987-6543",
       "email": "florida@markrepairservices.com",
+      "stats": [
+        {
+          "value": "1.8K+",
+          "label": "Jobs Done"
+        },
+        {
+          "value": "12+",
+          "label": "Cities"
+        },
+        {
+          "value": "4.8/5",
+          "label": "Rating"
+        }
+      ],
+      "features": [
+        "Specialized in moisture and mold prevention",
+        "Hurricane preparedness experts",
+        "Local Florida certified technicians",
+        "24/7 emergency coastal support"
+      ],
+      "serviceAreas": [
+        "Miami-Dade",
+        "Tampa Bay",
+        "Orlando Metro",
+        "Jacksonville"
+      ],
       "cities": [
         {
           "name": "Miami",
+          "available": true,
           "description": "Miami-Dade County and surrounding areas",
-          "zipCodes": ["33101", "33102", "33125", "33126", "33127"]
+          "zipCodes": [
+            "33101",
+            "33102",
+            "33125",
+            "33126",
+            "33127"
+          ]
         },
         {
           "name": "Tampa",
+          "available": true,
           "description": "Tampa Bay area including St. Petersburg",
-          "zipCodes": ["33601", "33602", "33603", "33604", "33605"]
+          "zipCodes": [
+            "33601",
+            "33602",
+            "33603",
+            "33604",
+            "33605"
+          ]
         },
         {
           "name": "Orlando",
+          "available": true,
           "description": "Greater Orlando metropolitan area",
-          "zipCodes": ["32801", "32802", "32803", "32804", "32805"]
+          "zipCodes": [
+            "32801",
+            "32802",
+            "32803",
+            "32804",
+            "32805"
+          ]
         },
         {
           "name": "Jacksonville",
+          "available": true,
           "description": "Jacksonville and surrounding communities",
-          "zipCodes": ["32099", "32201", "32202", "32203", "32204"]
+          "zipCodes": [
+            "32099",
+            "32201",
+            "32202",
+            "32203",
+            "32204"
+          ]
+        },
+        {
+          "name": "Tallahassee",
+          "available": false,
+          "description": "Expansion planned for Tallahassee",
+          "zipCodes": []
+        },
+        {
+          "name": "Naples",
+          "available": false,
+          "description": "Future service in Naples",
+          "zipCodes": []
         }
       ],
       "services": [
@@ -86,6 +220,16 @@
       ]
     }
   ],
+  "expansion": {
+    "headline": "We're Growing!",
+    "description": "Mark Repair Services is expanding to support even more homeowners across the country. Check back soon for more locations.",
+    "ctaText": "Suggest a Location",
+    "upcomingStates": [
+      "Georgia",
+      "Arizona",
+      "Nevada"
+    ]
+  },
   "cta": {
     "title": "Don't See Your Area?",
     "description": "We're constantly expanding our service areas. Contact us to check if we serve your location or to request service in your area.",

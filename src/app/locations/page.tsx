@@ -43,15 +43,14 @@ export default function LocationsPage() {
             {states.map((state, index) => (
               <div
                 key={state.id}
-                className={`grid lg:grid-cols-2 gap-10 lg:gap-16 items-start ${
-                  index % 2 === 1 ? "lg:grid-flow-dense" : ""
-                }`}
+                className={`grid lg:grid-cols-2 gap-10 lg:gap-16 items-start ${index % 2 === 1 ? "lg:grid-flow-dense" : ""
+                  }`}
               >
                 {/* Image & Contact */}
                 <div className={index % 2 === 1 ? "lg:col-start-2" : ""}>
                   <div className="relative aspect-[16/10] rounded-2xl overflow-hidden shadow-xl mb-6">
                     <Image
-                      src={state.image}
+                      src={state.heroImage}
                       alt={state.name}
                       fill
                       className="object-cover"

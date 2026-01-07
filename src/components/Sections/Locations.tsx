@@ -18,7 +18,7 @@ import { cn } from "@/lib/utils";
 import locationsData from "@/data/locations.json";
 
 export default function Locations() {
-  const [activeLocation, setActiveLocation] = useState(locationsData.locations[0]);
+  const [activeLocation, setActiveLocation] = useState(locationsData.states[0]);
 
   return (
     <section className="relative overflow-hidden bg-surface py-20 lg:py-32">
@@ -26,20 +26,19 @@ export default function Locations() {
       <div className="absolute inset-0 pattern-bg opacity-20" />
 
       {/* Gradient Overlays */}
-      <div className="absolute left-0 top-0 h-1/2 w-1/2 bg-gradient-to-br from-primary/5 to-transparent" />
-      <div className="absolute bottom-0 right-0 h-1/2 w-1/2 bg-gradient-to-tl from-accent/5 to-transparent" />
+      <div className="absolute left-0 top-0 h-1/2 w-1/2 bg-linear-to-br from-primary/5 to-transparent" />
+      <div className="absolute bottom-0 right-0 h-1/2 w-1/2 bg-linear-to-tl from-accent/5 to-transparent" />
 
       <Container className="relative">
         <SectionHeader
-          badge="Service Areas"
-          subheadline={locationsData.subheadline}
-          headline={locationsData.headline}
-          description={locationsData.description}
+          badge={locationsData.hero.badge}
+          headline={locationsData.hero.title}
+          description={locationsData.hero.description}
         />
 
         {/* Location Tabs */}
         <div className="mb-12 flex flex-wrap items-center justify-center gap-4">
-          {locationsData.locations.map((location) => (
+          {locationsData.states.map((location) => (
             <button
               key={location.id}
               onClick={() => setActiveLocation(location)}
@@ -51,7 +50,7 @@ export default function Locations() {
               )}
             >
               <MapPin className="h-5 w-5" />
-              {location.state}
+              {location.name}
             </button>
           ))}
         </div>
@@ -71,17 +70,17 @@ export default function Locations() {
               <div className="overflow-hidden rounded-3xl">
                 <img
                   src={activeLocation.heroImage}
-                  alt={`${activeLocation.state} service area`}
-                  className="aspect-[4/3] w-full object-cover"
+                  alt={`${activeLocation.name} service area`}
+                  className="aspect-4/3 w-full object-cover"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-surface via-transparent to-transparent" />
+                <div className="absolute inset-0 bg-linear-to-t from-surface via-transparent to-transparent" />
               </div>
 
               {/* State Badge */}
               <div className="absolute left-6 top-6">
                 <Badge variant="primary" size="lg">
                   <MapPin className="h-4 w-4" />
-                  {activeLocation.state} ({activeLocation.abbreviation})
+                  {activeLocation.name} ({activeLocation.abbreviation})
                 </Badge>
               </div>
 
@@ -93,7 +92,7 @@ export default function Locations() {
                 className="absolute bottom-6 left-6 right-6 rounded-2xl border border-border bg-surface/90 p-4 backdrop-blur-sm"
               >
                 <div className="grid grid-cols-3 gap-4 text-center">
-                  {activeLocation.stats.map((stat, index) => (
+                  {activeLocation.stats.map((stat: any, index: number) => (
                     <div key={index}>
                       <div className="font-heading text-2xl font-bold text-primary">
                         {stat.value}
@@ -108,7 +107,7 @@ export default function Locations() {
             {/* Right - Details */}
             <div>
               <h3 className="mb-4 font-heading text-2xl font-bold text-text-primary md:text-3xl">
-                Serving {activeLocation.state} Homeowners
+                Serving {activeLocation.name} Homeowners
               </h3>
               <p className="mb-6 text-text-secondary">
                 {activeLocation.description}
@@ -116,9 +115,9 @@ export default function Locations() {
 
               {/* Features */}
               <ul className="mb-8 space-y-3">
-                {activeLocation.features.map((feature, index) => (
+                {activeLocation.features.map((feature: string, index: number) => (
                   <li key={index} className="flex items-center gap-3 text-text-secondary">
-                    <Check className="h-5 w-5 flex-shrink-0 text-success" />
+                    <Check className="h-5 w-5 shrink-0 text-success" />
                     {feature}
                   </li>
                 ))}
@@ -130,7 +129,7 @@ export default function Locations() {
                   Service Areas
                 </h4>
                 <div className="flex flex-wrap gap-2">
-                  {activeLocation.serviceAreas.map((area, index) => (
+                  {activeLocation.serviceAreas.map((area: string, index: number) => (
                     <Badge key={index} variant="default" size="md">
                       {area}
                     </Badge>
@@ -144,7 +143,7 @@ export default function Locations() {
                   Cities We Serve
                 </h4>
                 <div className="grid grid-cols-2 gap-2 md:grid-cols-3">
-                  {activeLocation.cities.map((city, index) => (
+                  {activeLocation.cities.map((city: any, index: number) => (
                     <div
                       key={index}
                       className={cn(
@@ -170,7 +169,7 @@ export default function Locations() {
 
               {/* CTA */}
               <Button href="/contact" size="lg" className="w-full sm:w-auto">
-                Get Service in {activeLocation.state}
+                Get Service in {activeLocation.name}
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
             </div>
@@ -183,7 +182,7 @@ export default function Locations() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.4 }}
-          className="mt-16 overflow-hidden rounded-2xl border border-accent/30 bg-gradient-to-r from-accent/10 to-primary/10"
+          className="mt-16 overflow-hidden rounded-2xl border border-accent/30 bg-linear-to-r from-accent/10 to-primary/10"
         >
           <div className="flex flex-col items-center gap-6 p-8 text-center md:flex-row md:text-left">
             <div className="flex-1">
@@ -195,7 +194,7 @@ export default function Locations() {
               </p>
               <div className="mt-4 flex flex-wrap items-center justify-center gap-2 md:justify-start">
                 <span className="text-sm text-text-muted">Coming to:</span>
-                {locationsData.expansion.upcomingStates.map((state, index) => (
+                {locationsData.expansion.upcomingStates.map((state: string, index: number) => (
                   <Badge key={index} variant="accent" size="md">
                     {state}
                   </Badge>

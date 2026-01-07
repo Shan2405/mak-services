@@ -12,10 +12,10 @@ import {
 } from "lucide-react";
 import Container from "@/components/ui/Container";
 import SectionHeader from "@/components/ui/SectionHeading";
-import ContactForm from "@/components/contact/contactForm";
 
 import { staggerContainer, staggerItem } from "@/lib/animations";
 import content from "@/data/content.json";
+import ContactForm from "../forms/ContactForm";
 
 export default function Contact() {
   const contactMethods = [
@@ -66,8 +66,8 @@ export default function Contact() {
       <Container className="relative z-10">
         <SectionHeader
           badge="Contact Us"
-          subheadline={content.contact.subheadline}
-          headline={content.contact.headline}
+          subtitle={content.contact.subheadline}
+          title={content.contact.headline}
           description={content.contact.description}
         />
 
