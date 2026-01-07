@@ -1,0 +1,95 @@
+{
+  "hero": {
+    "badge": "Service Areas",
+    "title": "Locations We Serve",
+    "description": "We currently provide home repair and maintenance services across Texas and Florida. Local teams ensure timely service and regional expertise."
+  },
+  "states": [
+    {
+      "id": "texas",
+      "name": "Texas",
+      "description": "Our Texas team serves major metropolitan areas and surrounding communities with comprehensive home repair services.",
+      "image": "/images/locations/texas.jpg",
+      "phone": "(555) 123-4567",
+      "email": "texas@markrepairservices.com",
+      "cities": [
+        {
+          "name": "Houston",
+          "description": "Greater Houston area including surrounding suburbs",
+          "zipCodes": ["77001", "77002", "77003", "77004", "77005"]
+        },
+        {
+          "name": "Dallas",
+          "description": "Dallas-Fort Worth metroplex",
+          "zipCodes": ["75201", "75202", "75203", "75204", "75205"]
+        },
+        {
+          "name": "Austin",
+          "description": "Austin metropolitan area",
+          "zipCodes": ["78701", "78702", "78703", "78704", "78705"]
+        },
+        {
+          "name": "San Antonio",
+          "description": "San Antonio and surrounding areas",
+          "zipCodes": ["78201", "78202", "78203", "78204", "78205"]
+        }
+      ],
+      "services": [
+        "Cleaning Services",
+        "Flooring Services",
+        "Plumbing Services",
+        "Electrical Services",
+        "Renovation Services",
+        "Fence Services",
+        "Garage Door Services",
+        "Handyman Services"
+      ]
+    },
+    {
+      "id": "florida",
+      "name": "Florida",
+      "description": "Our Florida team brings expertise in home services suited to the unique needs of Florida homeowners.",
+      "image": "/images/locations/florida.jpg",
+      "phone": "(555) 987-6543",
+      "email": "florida@markrepairservices.com",
+      "cities": [
+        {
+          "name": "Miami",
+          "description": "Miami-Dade County and surrounding areas",
+          "zipCodes": ["33101", "33102", "33125", "33126", "33127"]
+        },
+        {
+          "name": "Tampa",
+          "description": "Tampa Bay area including St. Petersburg",
+          "zipCodes": ["33601", "33602", "33603", "33604", "33605"]
+        },
+        {
+          "name": "Orlando",
+          "description": "Greater Orlando metropolitan area",
+          "zipCodes": ["32801", "32802", "32803", "32804", "32805"]
+        },
+        {
+          "name": "Jacksonville",
+          "description": "Jacksonville and surrounding communities",
+          "zipCodes": ["32099", "32201", "32202", "32203", "32204"]
+        }
+      ],
+      "services": [
+        "Cleaning Services",
+        "Flooring Services",
+        "Plumbing Services",
+        "Electrical Services",
+        "Renovation Services",
+        "Fence Services",
+        "Garage Door Services",
+        "Handyman Services"
+      ]
+    }
+  ],
+  "cta": {
+    "title": "Don't See Your Area?",
+    "description": "We're constantly expanding our service areas. Contact us to check if we serve your location or to request service in your area.",
+    "buttonLabel": "Contact Us",
+    "buttonHref": "/contact"
+  }
+}

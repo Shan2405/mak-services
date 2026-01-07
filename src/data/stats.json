@@ -1,0 +1,28 @@
+{
+  "stats": [
+    {
+      "value": "15+",
+      "label": "Years Experience",
+      "icon": "Calendar",
+      "description": "Over a decade of trusted service"
+    },
+    {
+      "value": "50K+",
+      "label": "Projects Completed",
+      "icon": "CheckCircle",
+      "description": "Successful repairs and renovations"
+    },
+    {
+      "value": "98%",
+      "label": "Satisfaction Rate",
+      "icon": "ThumbsUp",
+      "description": "Customers who recommend us"
+    },
+    {
+      "value": "24/7",
+      "label": "Emergency Service",
+      "icon": "Clock",
+      "description": "Always here when you need us"
+    }
+  ]
+}

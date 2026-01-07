@@ -1,0 +1,220 @@
+{
+  "siteInfo": {
+    "name": "Mark Repair Services",
+    "tagline": "Reliable Home Repair, Renovation & Maintenance Services",
+    "description": "Professional home repair, renovation, and maintenance solutions. Quick fixes to full upgrades, our experienced team is ready to help.",
+    "foundedYear": 2010,
+    "phone": "(555) 123-4567",
+    "email": "info@markrepairservices.com",
+    "address": "123 Home Repair Lane, Houston, TX 77001"
+  },
+  "hero": {
+    "headline": "Your Home Deserves",
+    "headlineHighlight": "Expert Care",
+    "subheadline": "Looking for Trusted Home Repair Services?",
+    "description": "Mark Repair Services provides professional home repair, renovation, and maintenance solutions. Whether you're looking for a quick fix or a complete home transformation, our experienced team delivers quality workmanship with transparent pricing.",
+    "ctaPrimary": "Get Free Estimate",
+    "ctaSecondary": "Explore Services",
+    "backgroundImage": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=1920&q=80",
+    "stats": [
+      {
+        "value": "15+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "10K+",
+        "label": "Projects Completed"
+      },
+      {
+        "value": "98%",
+        "label": "Customer Satisfaction"
+      },
+      {
+        "value": "24/7",
+        "label": "Emergency Support"
+      }
+    ]
+  },
+  "about": {
+    "headline": "Why Choose Mark Repair Services?",
+    "subheadline": "Your Trusted Partner for Home Care Since 2010",
+    "description": "For over 15 years, Mark Repair Services has been the trusted choice for homeowners seeking reliable, professional home repair and maintenance solutions. We combine old-fashioned craftsmanship with modern techniques to deliver results that exceed expectations.",
+    "mission": "Our mission is to make home repairs simple and stress-free. We believe every homeowner deserves access to honest, skilled professionals who treat your home with the same care they'd give their own.",
+    "vision": "To be the most trusted name in home services, known for integrity, quality, and customer-first service in every community we serve.",
+    "image": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=1920&q=80",
+    "values": [
+      {
+        "title": "Quality Craftsmanship",
+        "description": "Every job is completed to the highest standards. We don't cut corners because your home deserves the best.",
+        "icon": "Award"
+      },
+      {
+        "title": "Transparent Pricing",
+        "description": "No hidden fees, no surprises. You'll know exactly what to expect before work begins.",
+        "icon": "DollarSign"
+      },
+      {
+        "title": "Customer First",
+        "description": "Your satisfaction drives everything we do. We listen, communicate, and deliver on our promises.",
+        "icon": "Heart"
+      },
+      {
+        "title": "Reliability",
+        "description": "When we say we'll be there, we're there. On time, every time, with the right tools and skills.",
+        "icon": "Clock"
+      },
+      {
+        "title": "Safety Priority",
+        "description": "All work meets or exceeds safety codes. Your family's wellbeing is our top concern.",
+        "icon": "Shield"
+      },
+      {
+        "title": "Eco-Conscious",
+        "description": "We use environmentally friendly products and sustainable practices whenever possible.",
+        "icon": "Leaf"
+      }
+    ],
+    "teamStats": [
+      {
+        "value": "50+",
+        "label": "Skilled Professionals"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed & Insured"
+      },
+      {
+        "value": "Ongoing",
+        "label": "Training Programs"
+      }
+    ]
+  },
+  "howItWorks": {
+    "headline": "How It Works",
+    "subheadline": "Getting Started is Simple",
+    "description": "We've streamlined our process to make home repairs as easy as possible. From first contact to job completion, here's what to expect.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Tell Us What You Need",
+        "description": "Describe your repair or project needs through our online form, phone, or chat. The more details, the better we can help.",
+        "icon": "MessageSquare"
+      },
+      {
+        "step": 2,
+        "title": "Share Property Details",
+        "description": "Let us know the area of your home that needs attention and any specific requirements or preferences.",
+        "icon": "Home"
+      },
+      {
+        "step": 3,
+        "title": "Get Your Free Estimate",
+        "description": "We'll provide a clear, detailed estimate with no hidden fees. Ask questions—we're happy to explain everything.",
+        "icon": "FileText"
+      },
+      {
+        "step": 4,
+        "title": "We Complete the Job",
+        "description": "Our professionals arrive on time, complete the work to your satisfaction, and leave your space clean.",
+        "icon": "CheckCircle"
+      }
+    ]
+  },
+  "emergency": {
+    "headline": "24/7 Emergency Services",
+    "subheadline": "When Disaster Strikes, We're Here",
+    "description": "Some problems can't wait until morning. Our emergency response team is available around the clock for urgent plumbing, electrical, and repair issues that threaten your home or family's safety.",
+    "phone": "(555) 911-4567",
+    "services": [
+      {
+        "title": "Emergency Plumbing",
+        "description": "Burst pipes, major leaks, sewage backups, and water heater failures need immediate attention.",
+        "icon": "Droplets"
+      },
+      {
+        "title": "Emergency Electrical",
+        "description": "Power outages, sparking outlets, burning smells, and exposed wiring require urgent professional help.",
+        "icon": "Zap"
+      },
+      {
+        "title": "Same-Day Repairs",
+        "description": "For urgent but non-emergency issues, we offer same-day service to prevent further damage.",
+        "icon": "Clock"
+      }
+    ],
+    "responseTime": "30-60 minutes",
+    "availability": "24 hours, 7 days a week",
+    "image": "https://images.unsplash.com/photo-1504148455328-c376907d081c?w=1920&q=80"
+  },
+  "cta": {
+    "headline": "Ready to Transform Your Home?",
+    "description": "Get started today with a free, no-obligation estimate. Our team is ready to tackle your home repair and renovation needs.",
+    "primaryButton": "Request Free Estimate",
+    "secondaryButton": "Call Us Now",
+    "phone": "(555) 123-4567"
+  },
+  "contact": {
+    "headline": "Get in Touch",
+    "subheadline": "We're Here to Help",
+    "description": "Have questions or ready to schedule service? Reach out through any of the channels below. We typically respond within 2 hours during business hours.",
+    "phone": "(555) 123-4567",
+    "email": "info@markrepairservices.com",
+    "address": {
+      "street": "123 Home Repair Lane",
+      "city": "Houston",
+      "state": "TX",
+      "zip": "77001"
+    },
+    "hours": {
+      "weekdays": "Monday - Friday: 7:00 AM - 7:00 PM",
+      "saturday": "Saturday: 8:00 AM - 5:00 PM",
+      "sunday": "Sunday: Emergency Only",
+      "emergency": "24/7 Emergency Line Available"
+    },
+    "socialLinks": [
+      {
+        "platform": "Facebook",
+        "url": "https://facebook.com/markrepairservices",
+        "icon": "Facebook"
+      },
+      {
+        "platform": "Instagram",
+        "url": "https://instagram.com/markrepairservices",
+        "icon": "Instagram"
+      },
+      {
+        "platform": "Twitter",
+        "url": "https://twitter.com/markrepairservices",
+        "icon": "Twitter"
+      },
+      {
+        "platform": "LinkedIn",
+        "url": "https://linkedin.com/company/markrepairservices",
+        "icon": "Linkedin"
+      }
+    ]
+  },
+  "footer": {
+    "description": "Mark Repair Services is committed to providing dependable home repair and maintenance solutions. We focus on honest communication, quality work, and customer satisfaction.",
+    "quickLinks": [
+      { "label": "Home", "href": "/" },
+      { "label": "Services", "href": "/services" },
+      { "label": "About Us", "href": "/about" },
+      { "label": "Locations", "href": "/locations" },
+      { "label": "Contact", "href": "/contact" }
+    ],
+    "serviceLinks": [
+      { "label": "Cleaning Services", "href": "/services/cleaning-services" },
+      { "label": "Plumbing Services", "href": "/services/plumbing-services" },
+      { "label": "Electrical Services", "href": "/services/electrical-services" },
+      { "label": "Renovation Services", "href": "/services/renovation-services" },
+      { "label": "Handyman Services", "href": "/services/handyman-services" }
+    ],
+    "legalLinks": [
+      { "label": "Privacy Policy", "href": "/privacy" },
+      { "label": "Terms of Service", "href": "/terms" },
+      { "label": "Accessibility", "href": "/accessibility" }
+    ],
+    "copyright": "© 2024 Mark Repair Services. All rights reserved."
+  }
+}

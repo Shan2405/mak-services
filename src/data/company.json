@@ -1,0 +1,22 @@
+{
+  "name": "Mark Repair Services",
+  "tagline": "Restoring Excellence, Building Trust.",
+  "description": "We deliver precision home repair, renovation, and maintenance solutions. From emergency fixes to comprehensive upgrades, our expert team ensures your home remains a sanctuary of comfort and safety.",
+  "contact": {
+    "phone": "+1 (555) 123-4567",
+    "email": "solutions@markrepair.com",
+    "address": "123 Innovation Drive, Tech City, TX 75001"
+  },
+  "serviceAreas": ["Texas", "Florida"],
+  "navigation": [
+    { "label": "Home", "href": "/" },
+    { "label": "Services", "href": "/services" },
+    { "label": "About Us", "href": "/about" },
+    { "label": "Contact", "href": "/contact" }
+  ],
+  "stats": [
+    { "label": "Years Experience", "value": "15+" },
+    { "label": "Projects Completed", "value": "2k+" },
+    { "label": "Satisfied Clients", "value": "98%" }
+  ]
+}

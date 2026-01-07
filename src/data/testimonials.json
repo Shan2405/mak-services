@@ -1,0 +1,66 @@
+{
+  "badge": "Customer Reviews",
+  "title": "What Our Customers Say",
+  "description": "Don't just take our word for it. Here's what homeowners have to say about our services.",
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Sarah Johnson",
+      "location": "Houston, TX",
+      "rating": 5,
+      "text": "Mark Repair Services did an amazing job on our bathroom renovation. The team was professional, punctual, and the quality of work exceeded our expectations. Highly recommend!",
+      "service": "Bathroom Renovation",
+      "avatar": "/images/testimonials/avatar-1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Michael Chen",
+      "location": "Austin, TX",
+      "rating": 5,
+      "text": "Had an emergency plumbing issue at midnight and they were at my door within 45 minutes. Fixed the problem quickly and the price was fair. Saved us from major water damage!",
+      "service": "Emergency Plumbing",
+      "avatar": "/images/testimonials/avatar-2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Emily Rodriguez",
+      "location": "Miami, FL",
+      "rating": 5,
+      "text": "We've used their handyman services multiple times now. Always reliable, always quality work. It's so nice to have one company we can trust for all our home repair needs.",
+      "service": "Handyman Services",
+      "avatar": "/images/testimonials/avatar-3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "David Thompson",
+      "location": "Dallas, TX",
+      "rating": 5,
+      "text": "The flooring installation was flawless. They helped us choose the right materials for our budget and the finished result looks incredible. Very happy customers!",
+      "service": "Flooring Installation",
+      "avatar": "/images/testimonials/avatar-4.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Jennifer Williams",
+      "location": "Tampa, FL",
+      "rating": 5,
+      "text": "Professional, clean, and efficient. They installed a new fence around our backyard and it looks beautiful. The crew cleaned up perfectly after finishing.",
+      "service": "Fence Installation",
+      "avatar": "/images/testimonials/avatar-5.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Robert Martinez",
+      "location": "San Antonio, TX",
+      "rating": 5,
+      "text": "Excellent electrical work! They upgraded all the outlets in our old home and installed new lighting. Everything was done to code and they explained everything clearly.",
+      "service": "Electrical Services",
+      "avatar": "/images/testimonials/avatar-6.jpg"
+    }
+  ],
+  "stats": {
+    "averageRating": 4.9,
+    "totalReviews": 500,
+    "satisfactionRate": 98
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "hero": {
+    "badge": "About Us",
+    "title": "Your Trusted Home Service Partner",
+    "description": "Mark Repair Services is committed to providing dependable home repair and maintenance solutions. We focus on honest communication, quality work, and customer satisfaction.",
+    "image": "/images/about-hero.jpg"
+  },
+  "mission": {
+    "title": "Our Mission",
+    "description": "To make home repairs simple and stress-free for every homeowner. We believe in delivering quality workmanship, transparent pricing, and exceptional customer service on every project.",
+    "values": [
+      {
+        "icon": "heart",
+        "title": "Customer First",
+        "description": "Your satisfaction is our top priority. We listen to your needs and deliver solutions that exceed expectations."
+      },
+      {
+        "icon": "shield",
+        "title": "Quality Workmanship",
+        "description": "We take pride in our work and ensure every project meets the highest standards of quality."
+      },
+      {
+        "icon": "handshake",
+        "title": "Honest & Transparent",
+        "description": "Clear communication and upfront pricing. No hidden fees, no surprises."
+      },
+      {
+        "icon": "clock",
+        "title": "Reliable & Punctual",
+        "description": "We respect your time. Our team arrives on schedule and completes work efficiently."
+      }
+    ]
+  },
+  "story": {
+    "title": "Our Story",
+    "content": [
+      "Mark Repair Services was founded with a simple goal: to provide homeowners with reliable, high-quality home repair and maintenance services they can trust.",
+      "What started as a small local operation has grown into a comprehensive home services company serving communities across Texas and Florida. Our growth is built on a foundation of satisfied customers and word-of-mouth recommendations.",
+      "Today, we employ over 50 skilled technicians and have completed more than 10,000 projects. But we haven't forgotten our roots – every customer receives the same personalized attention and quality service that built our reputation."
+    ],
+    "image": "/images/about-story.jpg"
+  },
+  "team": {
+    "title": "Meet Our Leadership",
+    "description": "Our experienced leadership team brings decades of combined experience in home services.",
+    "members": [
+      {
+        "name": "Mark Johnson",
+        "role": "Founder & CEO",
+        "bio": "With over 20 years in the home services industry, Mark founded the company with a vision to provide reliable, quality services to homeowners.",
+        "image": "/images/team/mark-johnson.jpg"
+      },
+      {
+        "name": "Sarah Williams",
+        "role": "Operations Director",
+        "bio": "Sarah oversees all operations, ensuring every project runs smoothly from start to finish.",
+        "image": "/images/team/sarah-williams.jpg"
+      },
+      {
+        "name": "David Chen",
+        "role": "Technical Director",
+        "bio": "David leads our team of technicians, maintaining our high standards of quality and safety.",
+        "image": "/images/team/david-chen.jpg"
+      },
+      {
+        "name": "Emily Rodriguez",
+        "role": "Customer Success Manager",
+        "bio": "Emily ensures every customer has a positive experience from first contact to project completion.",
+        "image": "/images/team/emily-rodriguez.jpg"
+      }
+    ]
+  },
+  "stats": [
+    { "value": "15+", "label": "Years of Experience" },
+    { "value": "10,000+", "label": "Projects Completed" },
+    { "value": "50+", "label": "Expert Technicians" },
+    { "value": "98%", "label": "Customer Satisfaction" }
+  ],
+  "certifications": {
+    "title": "Licensed & Certified",
+    "description": "Our team maintains all required licenses and certifications to ensure quality and compliance.",
+    "items": [
+      "Licensed General Contractor",
+      "Certified Electricians",
+      "Licensed Plumbers",
+      "EPA Certified",
+      "OSHA Compliant",
+      "Fully Insured & Bonded"
+    ]
+  }
+}

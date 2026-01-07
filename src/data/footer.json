@@ -1,0 +1,23 @@
+{
+  "companyDescription": "Mark Repair Services is committed to providing dependable home repair and maintenance solutions. We focus on honest communication, quality work, and customer satisfaction.",
+  "quickLinks": [
+    { "label": "Home", "href": "/" },
+    { "label": "About Us", "href": "/about" },
+    { "label": "Our Services", "href": "/services" },
+    { "label": "Locations", "href": "/locations" },
+    { "label": "Contact Us", "href": "/contact" },
+    { "label": "Request Service", "href": "/contact" }
+  ],
+  "serviceLinks": [
+    { "label": "Cleaning Services", "href": "/services/cleaning" },
+    { "label": "Flooring Services", "href": "/services/flooring" },
+    { "label": "Plumbing Services", "href": "/services/plumbing" },
+    { "label": "Electrical Services", "href": "/services/electrical" },
+    { "label": "Renovation Services", "href": "/services/renovation" },
+    { "label": "Handyman Services", "href": "/services/handyman" }
+  ],
+  "legalLinks": [
+    { "label": "Privacy Policy", "href": "/privacy-policy" },
+    { "label": "Terms of Service", "href": "/terms-of-service" }
+  ]
+}

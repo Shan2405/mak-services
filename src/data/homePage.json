@@ -1,0 +1,77 @@
+{
+  "hero": {
+    "badge": "Trusted by 1000+ Homeowners",
+    "title": "Looking for Trusted Home Repair Services?",
+    "description": "Mark Repair Services provides professional home repair, renovation, and maintenance solutions. Whether you are looking for a quick fix or a full upgrade, our experienced team is ready to help.",
+    "subtext": "We work across all major areas of your home, offering dependable service, clear pricing, and quality workmanship.",
+    "primaryCta": {
+      "label": "Get Free Estimate",
+      "href": "/contact"
+    },
+    "secondaryCta": {
+      "label": "View Our Services",
+      "href": "/services"
+    },
+    "image": "/images/hero-home.jpg",
+    "stats": [
+      { "value": "15+", "label": "Years Experience" },
+      { "value": "1000+", "label": "Happy Clients" },
+      { "value": "50+", "label": "Expert Technicians" },
+      { "value": "24/7", "label": "Emergency Support" }
+    ]
+  },
+  "servicesSection": {
+    "badge": "What We Offer",
+    "title": "Comprehensive Home Services",
+    "description": "From quick fixes to complete renovations, we provide a wide range of professional services to keep your home in perfect condition."
+  },
+  "whyChooseUs": {
+    "badge": "Why Choose Us",
+    "title": "Your Trusted Partner for Home Services",
+    "description": "We are committed to providing reliable, high-quality services that meet your needs and exceed your expectations.",
+    "features": [
+      {
+        "icon": "shield",
+        "title": "Licensed & Insured",
+        "description": "All our technicians are fully licensed and insured for your peace of mind."
+      },
+      {
+        "icon": "clock",
+        "title": "On-Time Service",
+        "description": "We respect your time and always arrive on schedule, every time."
+      },
+      {
+        "icon": "dollar",
+        "title": "Transparent Pricing",
+        "description": "No hidden fees. Get clear, upfront pricing before any work begins."
+      },
+      {
+        "icon": "award",
+        "title": "Quality Guaranteed",
+        "description": "We stand behind our work with a satisfaction guarantee on all services."
+      },
+      {
+        "icon": "users",
+        "title": "Expert Team",
+        "description": "Our skilled professionals bring years of experience to every project."
+      },
+      {
+        "icon": "headphones",
+        "title": "24/7 Support",
+        "description": "Emergency services available around the clock when you need us most."
+      }
+    ]
+  },
+  "ctaSection": {
+    "title": "Ready to Get Started?",
+    "description": "Get a free estimate today and let us take care of your home. Our team is ready to help with any repair, renovation, or maintenance need.",
+    "primaryCta": {
+      "label": "Get Free Estimate",
+      "href": "/contact"
+    },
+    "secondaryCta": {
+      "label": "Call Us Now",
+      "href": "tel:(555) 123-4567"
+    }
+  }
+}

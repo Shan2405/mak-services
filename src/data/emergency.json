@@ -1,0 +1,48 @@
+{
+  "badge": "24/7 Available",
+  "title": "Emergency Services",
+  "subtitle": "When You Need Help Fast",
+  "description": "Looking for emergency repair services? We offer fast-response support for urgent situations. Quick action helps prevent further damage.",
+  "phone": "(555) 123-4567",
+  "services": [
+    {
+      "id": "emergency-plumbing",
+      "title": "Emergency Plumbing",
+      "description": "Burst pipes, severe leaks, and water damage situations handled immediately.",
+      "icon": "droplet",
+      "responseTime": "Under 1 hour"
+    },
+    {
+      "id": "emergency-electrical",
+      "title": "Emergency Electrical",
+      "description": "Power outages, electrical hazards, and urgent repairs available 24/7.",
+      "icon": "zap",
+      "responseTime": "Under 1 hour"
+    },
+    {
+      "id": "same-day-repairs",
+      "title": "Same-Day Repairs",
+      "description": "Urgent home repairs that can't wait until tomorrow.",
+      "icon": "clock",
+      "responseTime": "Same day"
+    }
+  ],
+  "features": [
+    "Available 24 hours a day, 7 days a week",
+    "Fast response times under 1 hour",
+    "Fully equipped service vehicles",
+    "Licensed and insured technicians",
+    "Upfront pricing with no hidden fees",
+    "Permanent solutions, not quick fixes"
+  ],
+  "cta": {
+    "primary": {
+      "label": "Call Emergency Line",
+      "href": "tel:(555) 123-4567"
+    },
+    "secondary": {
+      "label": "Request Callback",
+      "href": "/contact"
+    }
+  }
+}

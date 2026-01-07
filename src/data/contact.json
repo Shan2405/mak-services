@@ -1,0 +1,102 @@
+{
+  "hero": {
+    "badge": "Get In Touch",
+    "title": "Contact Us",
+    "description": "Looking for reliable home repair services? Contact Mark Repair Services today for a free estimate and professional support. Your home deserves quality care."
+  },
+  "contactInfo": {
+    "title": "Contact Information",
+    "description": "Reach out to us through any of the following channels. We're here to help!",
+    "items": [
+      {
+        "icon": "phone",
+        "label": "Phone",
+        "value": "(555) 123-4567",
+        "href": "tel:(555) 123-4567",
+        "description": "Mon-Fri: 7AM-7PM, Sat: 8AM-5PM"
+      },
+      {
+        "icon": "mail",
+        "label": "Email",
+        "value": "info@markrepairservices.com",
+        "href": "mailto:info@markrepairservices.com",
+        "description": "We respond within 24 hours"
+      },
+      {
+        "icon": "map-pin",
+        "label": "Address",
+        "value": "123 Service Road, Houston, TX 77001",
+        "href": "https://maps.google.com",
+        "description": "Main office location"
+      },
+      {
+        "icon": "clock",
+        "label": "Business Hours",
+        "value": "Mon-Fri: 7AM-7PM",
+        "description": "Emergency services available 24/7"
+      }
+    ]
+  },
+  "form": {
+    "title": "Request a Service",
+    "description": "Fill out the form below and our team will contact you quickly to schedule your service.",
+    "services": [
+      { "value": "cleaning", "label": "Cleaning Services" },
+      { "value": "flooring", "label": "Flooring Services" },
+      { "value": "plumbing", "label": "Plumbing Services" },
+      { "value": "electrical", "label": "Electrical Services" },
+      { "value": "renovation", "label": "Renovation Services" },
+      { "value": "fence", "label": "Fence Services" },
+      { "value": "garage-door", "label": "Garage Door Services" },
+      { "value": "handyman", "label": "Handyman Services" },
+      { "value": "emergency", "label": "Emergency Services" },
+      { "value": "other", "label": "Other" }
+    ],
+    "propertyAreas": [
+      { "value": "bathroom", "label": "Bathroom" },
+      { "value": "kitchen", "label": "Kitchen" },
+      { "value": "living-room", "label": "Living Room" },
+      { "value": "bedroom", "label": "Bedroom" },
+      { "value": "basement", "label": "Basement" },
+      { "value": "garage", "label": "Garage" },
+      { "value": "backyard", "label": "Backyard" },
+      { "value": "whole-home", "label": "Whole Home" },
+      { "value": "other", "label": "Other" }
+    ],
+    "urgencyLevels": [
+      { "value": "low", "label": "Not Urgent - Flexible Timeline" },
+      { "value": "medium", "label": "Soon - Within 1-2 Weeks" },
+      { "value": "high", "label": "Urgent - Within a Few Days" },
+      { "value": "emergency", "label": "Emergency - Immediate Help Needed" }
+    ],
+    "successMessage": {
+      "title": "Thank You!",
+      "description": "Your service request has been submitted successfully. Our team will contact you within 24 hours to discuss your needs and schedule a free estimate."
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "questions": [
+      {
+        "question": "How quickly can you respond to a service request?",
+        "answer": "For standard requests, we typically respond within 24 hours and can schedule service within 1-3 business days. For emergencies, we offer same-day service with response times under 1 hour."
+      },
+      {
+        "question": "Do you provide free estimates?",
+        "answer": "Yes! We provide free, no-obligation estimates for all our services. Our team will assess your needs and provide transparent pricing before any work begins."
+      },
+      {
+        "question": "What areas do you serve?",
+        "answer": "We currently serve major metropolitan areas in Texas (Houston, Dallas, Austin, San Antonio) and Florida (Miami, Tampa, Orlando, Jacksonville). Contact us to confirm service availability in your specific location."
+      },
+      {
+        "question": "Are your technicians licensed and insured?",
+        "answer": "Absolutely. All our technicians are fully licensed, insured, and undergo thorough background checks. We maintain all required certifications for the services we provide."
+      },
+      {
+        "question": "What payment methods do you accept?",
+        "answer": "We accept all major credit cards, debit cards, checks, and cash. For larger projects, we also offer financing options to help make your home improvements more affordable."
+      }
+    ]
+  }
+}

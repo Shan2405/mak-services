@@ -1,0 +1,26 @@
+{
+  "name": "Mark Repair Services",
+  "tagline": "Reliable Home Repair, Renovation & Maintenance Services",
+  "description": "Professional home repair, renovation, and maintenance solutions. Whether you need a quick fix or a full upgrade, our experienced team is ready to help.",
+  "contact": {
+    "phone": "(555) 123-4567",
+    "email": "info@markrepairservices.com",
+    "address": "123 Service Road, Houston, TX 77001"
+  },
+  "social": {
+    "facebook": "https://facebook.com/markrepairservices",
+    "twitter": "https://twitter.com/markrepair",
+    "instagram": "https://instagram.com/markrepairservices",
+    "linkedin": "https://linkedin.com/company/markrepairservices"
+  },
+  "seo": {
+    "title": "Mark Repair Services | Professional Home Repair & Renovation",
+    "description": "Mark Repair Services provides professional home repair, renovation, and maintenance solutions. Get a free estimate today for all your home improvement needs.",
+    "keywords": "home repair, renovation, maintenance, plumbing, electrical, flooring, cleaning, handyman services"
+  },
+  "businessHours": {
+    "weekdays": "Mon - Fri: 7:00 AM - 7:00 PM",
+    "saturday": "Sat: 8:00 AM - 5:00 PM",
+    "sunday": "Sun: Emergency Only"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "badge": "Simple Process",
+  "title": "How It Works",
+  "description": "Getting your home repaired or maintained is simple. Follow these easy steps to get started.",
+  "steps": [
+    {
+      "number": 1,
+      "title": "Tell Us What You Need",
+      "description": "Share the details of your home repair or maintenance needs with our team.",
+      "icon": "message-circle"
+    },
+    {
+      "number": 2,
+      "title": "Choose Your Service",
+      "description": "Select the property area and specific service you require from our offerings.",
+      "icon": "clipboard-list"
+    },
+    {
+      "number": 3,
+      "title": "Get Free Estimate",
+      "description": "Receive a transparent, no-obligation quote for the work to be done.",
+      "icon": "calculator"
+    },
+    {
+      "number": 4,
+      "title": "We Complete the Job",
+      "description": "Our skilled professionals arrive on time and complete the work to your satisfaction.",
+      "icon": "check-circle"
+    }
+  ],
+  "cta": {
+    "title": "Ready to Start?",
+    "label": "Request Service Now",
+    "href": "/contact"
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "pageTitle": "Our Services",
+  "pageDescription": "We offer a comprehensive range of home repair, renovation, and maintenance services to keep your home in perfect condition.",
+  "services": [
+    {
+      "id": "cleaning",
+      "slug": "cleaning",
+      "title": "Cleaning Services",
+      "shortDescription": "Professional cleaning solutions to keep your space fresh, healthy, and well-maintained.",
+      "description": "Looking for professional cleaning services for your home? We provide reliable cleaning solutions designed to keep your space fresh, healthy, and well-maintained.",
+      "icon": "sparkles",
+      "image": "/images/services/cleaning.jpg",
+      "features": [
+        "Bathroom cleaning",
+        "Kitchen cleaning",
+        "Living room and bedroom cleaning",
+        "Garage and basement cleaning",
+        "Whole home cleaning"
+      ],
+      "benefits": [
+        "Eco-friendly cleaning products",
+        "Trained and vetted cleaners",
+        "Flexible scheduling options",
+        "Satisfaction guaranteed"
+      ],
+      "cta": "Our cleaning services are ideal for regular maintenance or deep cleaning needs."
+    },
+    {
+      "id": "flooring",
+      "slug": "flooring",
+      "title": "Flooring Services",
+      "shortDescription": "Expert installation, repair, and replacement for all types of residential flooring.",
+      "description": "Recommendation for flooring services you can trust. We handle installation, repair, and replacement for all types of residential flooring.",
+      "icon": "layers",
+      "image": "/images/services/flooring.jpg",
+      "features": [
+        "Bathroom flooring",
+        "Kitchen flooring",
+        "Living room flooring",
+        "Basement flooring",
+        "Whole home flooring installation"
+      ],
+      "benefits": [
+        "Wide selection of materials",
+        "Expert installation",
+        "Durability guaranteed",
+        "Clean finishing"
+      ],
+      "cta": "We focus on durability, clean finishing, and long-lasting results."
+    },
+    {
+      "id": "plumbing",
+      "slug": "plumbing",
+      "title": "Plumbing Services",
+      "shortDescription": "Professional plumbing repair and maintenance services for common and complex issues.",
+      "description": "Looking for plumbing repair or maintenance services? Our team handles common and complex plumbing issues with care and efficiency.",
+      "icon": "droplet",
+      "image": "/images/services/plumbing.jpg",
+      "features": [
+        "Bathroom plumbing repair",
+        "Kitchen plumbing maintenance",
+        "Pipe repair and replacement",
+        "Leak detection",
+        "Emergency plumbing services"
+      ],
+      "benefits": [
+        "Fast response times",
+        "Licensed plumbers",
+        "Quality parts and materials",
+        "Preventive maintenance"
+      ],
+      "cta": "Fast response and proper solutions keep your home safe from water damage."
+    },
+    {
+      "id": "electrical",
+      "slug": "electrical",
+      "title": "Electrical Services",
+      "shortDescription": "Safe and professional electrical services following proper safety standards.",
+      "description": "Recommendation for safe and professional electrical services for your home. We follow proper safety standards for every job.",
+      "icon": "zap",
+      "image": "/images/services/electrical.jpg",
+      "features": [
+        "Electrical repairs",
+        "Wiring installation",
+        "Lighting upgrades",
+        "Outlet and switch repair",
+        "Emergency electrical services"
+      ],
+      "benefits": [
+        "Certified electricians",
+        "Code-compliant work",
+        "Safety inspections",
+        "Energy-efficient solutions"
+      ],
+      "cta": "Our electricians ensure reliable power and peace of mind."
+    },
+    {
+      "id": "renovation",
+      "slug": "renovation",
+      "title": "Renovation Services",
+      "shortDescription": "Home renovation services that improve comfort, functionality, and value.",
+      "description": "Looking for home renovation services that improve comfort and value? We manage renovation projects with clear planning and skilled execution.",
+      "icon": "hammer",
+      "image": "/images/services/renovation.jpg",
+      "features": [
+        "Bathroom renovation",
+        "Kitchen renovation",
+        "Room remodeling",
+        "Basement renovation",
+        "Whole home renovation"
+      ],
+      "benefits": [
+        "Custom design options",
+        "Quality materials",
+        "Project management",
+        "On-time completion"
+      ],
+      "cta": "We turn outdated spaces into functional, modern living areas."
+    },
+    {
+      "id": "fence",
+      "slug": "fence",
+      "title": "Fence Services",
+      "shortDescription": "Strong and visually clean fencing solutions for residential properties.",
+      "description": "Recommendation for fence installation and repair services for residential properties. We provide strong and visually clean fencing solutions.",
+      "icon": "fence",
+      "image": "/images/services/fence.jpg",
+      "features": [
+        "Fence installation",
+        "Fence repair",
+        "Fence replacement",
+        "Backyard fencing",
+        "Privacy fences"
+      ],
+      "benefits": [
+        "Durable materials",
+        "Custom designs",
+        "Property value enhancement",
+        "Security improvement"
+      ],
+      "cta": "Our fences enhance security and curb appeal."
+    },
+    {
+      "id": "garage-door",
+      "slug": "garage-door",
+      "title": "Garage Door Services",
+      "shortDescription": "Efficient garage door repair, installation, and maintenance services.",
+      "description": "Looking for garage door repair or maintenance services? We handle mechanical issues and upgrades efficiently.",
+      "icon": "door-open",
+      "image": "/images/services/garage-door.jpg",
+      "features": [
+        "Garage door repair",
+        "Garage door installation",
+        "Garage door maintenance",
+        "Opener repair",
+        "Panel replacement"
+      ],
+      "benefits": [
+        "Same-day service available",
+        "Quality replacement parts",
+        "Safety inspections",
+        "Warranty coverage"
+      ],
+      "cta": "Reliable garage doors improve both safety and convenience."
+    },
+    {
+      "id": "handyman",
+      "slug": "handyman",
+      "title": "Handyman Services",
+      "shortDescription": "General handyman services for everyday home repairs and maintenance.",
+      "description": "Recommendation for general handyman services for everyday home repairs. Ideal for small fixes and ongoing maintenance.",
+      "icon": "wrench",
+      "image": "/images/services/handyman.jpg",
+      "features": [
+        "General home repairs",
+        "Fixture installation",
+        "Door and window repair",
+        "Wall and ceiling fixes",
+        "Routine home maintenance"
+      ],
+      "benefits": [
+        "Multi-skilled technicians",
+        "Flexible scheduling",
+        "Affordable rates",
+        "One call for multiple jobs"
+      ],
+      "cta": "One call takes care of multiple small jobs."
+    }
+  ]
+}

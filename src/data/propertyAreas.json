@@ -1,0 +1,71 @@
+{
+  "badge": "Areas We Cover",
+  "title": "Property Areas We Serve",
+  "description": "We provide comprehensive services across all major areas of your home. No matter where the issue is, we have the right solution.",
+  "areas": [
+    {
+      "id": "bathroom",
+      "name": "Bathroom",
+      "description": "Complete bathroom repair, renovation, and maintenance services.",
+      "icon": "bath",
+      "image": "/images/areas/bathroom.jpg",
+      "services": ["Plumbing", "Flooring", "Renovation", "Cleaning"]
+    },
+    {
+      "id": "kitchen",
+      "name": "Kitchen",
+      "description": "Kitchen upgrades, repairs, and maintenance solutions.",
+      "icon": "utensils",
+      "image": "/images/areas/kitchen.jpg",
+      "services": ["Plumbing", "Electrical", "Flooring", "Renovation"]
+    },
+    {
+      "id": "living-room",
+      "name": "Living Room",
+      "description": "Living room improvements and repair services.",
+      "icon": "sofa",
+      "image": "/images/areas/living-room.jpg",
+      "services": ["Flooring", "Electrical", "Cleaning", "Handyman"]
+    },
+    {
+      "id": "bedroom",
+      "name": "Bedroom",
+      "description": "Bedroom repairs and maintenance for better comfort.",
+      "icon": "bed",
+      "image": "/images/areas/bedroom.jpg",
+      "services": ["Flooring", "Electrical", "Cleaning", "Handyman"]
+    },
+    {
+      "id": "basement",
+      "name": "Basement",
+      "description": "Basement finishing, waterproofing, and renovations.",
+      "icon": "warehouse",
+      "image": "/images/areas/basement.jpg",
+      "services": ["Renovation", "Flooring", "Plumbing", "Electrical"]
+    },
+    {
+      "id": "garage",
+      "name": "Garage",
+      "description": "Garage door services, organization, and repairs.",
+      "icon": "car",
+      "image": "/images/areas/garage.jpg",
+      "services": ["Garage Door", "Flooring", "Electrical", "Cleaning"]
+    },
+    {
+      "id": "backyard",
+      "name": "Backyard",
+      "description": "Outdoor space improvements including fencing and more.",
+      "icon": "trees",
+      "image": "/images/areas/backyard.jpg",
+      "services": ["Fence", "Handyman", "Cleaning"]
+    },
+    {
+      "id": "whole-home",
+      "name": "Whole Home",
+      "description": "Comprehensive whole-home services and renovations.",
+      "icon": "home",
+      "image": "/images/areas/whole-home.jpg",
+      "services": ["Renovation", "Cleaning", "Flooring", "Electrical", "Plumbing"]
+    }
+  ]
+}

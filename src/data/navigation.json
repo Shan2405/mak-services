@@ -1,0 +1,62 @@
+{
+  "mainNav": [
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Services",
+      "href": "/services",
+      "submenu": [
+        {
+          "label": "Cleaning Services",
+          "href": "/services/cleaning"
+        },
+        {
+          "label": "Flooring Services",
+          "href": "/services/flooring"
+        },
+        {
+          "label": "Plumbing Services",
+          "href": "/services/plumbing"
+        },
+        {
+          "label": "Electrical Services",
+          "href": "/services/electrical"
+        },
+        {
+          "label": "Renovation Services",
+          "href": "/services/renovation"
+        },
+        {
+          "label": "Fence Services",
+          "href": "/services/fence"
+        },
+        {
+          "label": "Garage Door Services",
+          "href": "/services/garage-door"
+        },
+        {
+          "label": "Handyman Services",
+          "href": "/services/handyman"
+        }
+      ]
+    },
+    {
+      "label": "About",
+      "href": "/about"
+    },
+    {
+      "label": "Locations",
+      "href": "/locations"
+    },
+    {
+      "label": "Contact",
+      "href": "/contact"
+    }
+  ],
+  "ctaButton": {
+    "label": "Get Free Estimate",
+    "href": "/contact"
+  }
+}

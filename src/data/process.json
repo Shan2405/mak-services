@@ -1,0 +1,22 @@
+[
+  {
+    "step": 1,
+    "title": "Consultation",
+    "description": "Submit a request or call us. Tell us about your property needs and urgency."
+  },
+  {
+    "step": 2,
+    "title": "Assessment & Quote",
+    "description": "We evaluate the scope and provide a transparent, competitive free estimate."
+  },
+  {
+    "step": 3,
+    "title": "Execution",
+    "description": "Our licensed professionals arrive on time, equipped to complete the job efficiently."
+  },
+  {
+    "step": 4,
+    "title": "Final Inspection",
+    "description": "We walk through the work with you to ensure 100% satisfaction before we leave."
+  }
+]
