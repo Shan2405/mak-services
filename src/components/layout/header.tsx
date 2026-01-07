@@ -60,7 +60,7 @@ const Header: React.FC = () => {
           <nav className="flex items-center justify-between">
             {/* Logo */}
             <Link href="/" className="flex items-center gap-3 group">
-              <div className="relative w-16 h-16 shrink-0 mt-1">
+              <div className="relative w-12 h-12 shrink-0">
                 <Image
                   src="/icon-blue.png"
                   alt="Mark Repair Services"
@@ -68,7 +68,7 @@ const Header: React.FC = () => {
                   className="object-contain"
                 />
               </div>
-              <div className="flex flex-col -ml-6">
+              <div className="flex flex-col -ml-2">
                 <span className="font-display font-bold text-xl text-text-primary group-hover:text-primary transition-colors">
                   Mark Repair
                 </span>

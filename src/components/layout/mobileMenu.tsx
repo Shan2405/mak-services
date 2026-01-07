@@ -55,7 +55,7 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ isOpen, onClose }) => {
         {/* Header */}
         <div className="flex items-center justify-between p-4 border-b  border-border">
           <Link href="/" onClick={onClose} className="flex items-center gap-3 group">
-            <div className="relative w-16 h-16 shrink-0 mt-1">
+            <div className="relative w-12 h-12 shrink-0">
               <Image
                 src="/icon-blue.png"
                 alt="Mark Repair Services"
@@ -63,7 +63,7 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ isOpen, onClose }) => {
                 className="object-contain"
               />
             </div>
-            <div className="flex flex-col text-left -ml-6">
+            <div className="flex flex-col text-left -ml-2">
               <span className="font-display font-bold text-xl text-text-primary group-hover:text-primary transition-colors">
                 Mark Repair
               </span>
