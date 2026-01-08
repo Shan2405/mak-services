@@ -8,6 +8,7 @@
       "title": "Cleaning Services",
       "shortDescription": "Professional cleaning solutions to keep your space fresh, healthy, and well-maintained.",
       "description": "Looking for professional cleaning services for your home? We provide reliable cleaning solutions designed to keep your space fresh, healthy, and well-maintained.",
+      "detailedDescription": "Experience a spotless home with our professional cleaning services. Whether you need a deep clean for a special occasion or regular maintenance to keep your living space healthy, our expert team uses eco-friendly products and meticulous techniques to ensure every corner of weights, kitchen, and living areas shines. We understand that your home is your sanctuary, and we treat it with the utmost care and respect.",
       "icon": "sparkles",
       "image": "/images/services/cleaning.webp",
       "features": [
@@ -23,6 +24,59 @@
         "Flexible scheduling options",
         "Satisfaction guaranteed"
       ],
+      "process": [
+        {
+          "title": "Initial Assessment",
+          "description": "We evaluate your space and discuss specific cleaning needs and priorities.",
+          "icon": "clipboard-list"
+        },
+        {
+          "title": "Plan Customization",
+          "description": "Create a cleaning checklist tailored to your home's layout and your requirements.",
+          "icon": "settings"
+        },
+        {
+          "title": "Meticulous Cleaning",
+          "description": "Our professionals perform deep cleaning using high-quality, eco-friendly products.",
+          "icon": "sparkles"
+        },
+        {
+          "title": "Final Walkthrough",
+          "description": "We ensure every detail meets our standards and your total satisfaction.",
+          "icon": "check-circle"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Are your cleaning products safe for pets and children?",
+          "answer": "Yes, we use non-toxic, eco-friendly cleaning solutions that are safe for your entire family, including pets."
+        },
+        {
+          "question": "Do I need to be home during the cleaning?",
+          "answer": "It's entirely up to you. Many clients provide access and go about their day, while others prefer to be present."
+        },
+        {
+          "question": "How often should I schedule a deep clean?",
+          "answer": "We recommend a comprehensive deep clean every 3-6 months, with regular maintenance cleaning in between."
+        }
+      ],
+      "stats": [
+        {
+          "label": "Homes Cleaned",
+          "value": "1200",
+          "suffix": "+"
+        },
+        {
+          "label": "Satisfaction Rate",
+          "value": "99",
+          "suffix": "%"
+        },
+        {
+          "label": "Eco Products Used",
+          "value": "100",
+          "suffix": "%"
+        }
+      ],
       "cta": "Our cleaning services are ideal for regular maintenance or deep cleaning needs."
     },
     {
@@ -31,6 +85,7 @@
       "title": "Flooring Services",
       "shortDescription": "Expert installation, repair, and replacement for all types of residential flooring.",
       "description": "Recommendation for flooring services you can trust. We handle installation, repair, and replacement for all types of residential flooring.",
+      "detailedDescription": "Elevate your home's aesthetic and value with our premium flooring services. From classic hardwood and durable laminate to stylish tile and modern luxury vinyl, we provide expert installation and repair solutions. Our craftsmen pay attention to every detail—from subfloor preparation to the final trim—ensuring a flawless finish that stands the test of time.",
       "icon": "layers",
       "image": "/images/services/flooring.webp",
       "features": [
@@ -46,6 +101,59 @@
         "Durability guaranteed",
         "Clean finishing"
       ],
+      "process": [
+        {
+          "title": "Material Selection",
+          "description": "We help you choose the best flooring material based on style, durability, and budget.",
+          "icon": "box"
+        },
+        {
+          "title": "Surface Preparation",
+          "description": "Removal of old flooring and thorough preparation of the subfloor for a level finish.",
+          "icon": "hammer"
+        },
+        {
+          "title": "Professional Install",
+          "description": "Precise installation using industry-leading techniques and specialized tools.",
+          "icon": "layers"
+        },
+        {
+          "title": "Finishing Touches",
+          "description": "Installation of transitions, baseboards, and a final cleaning of the new floor.",
+          "icon": "check-square"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "How long does a typical flooring installation take?",
+          "answer": "Most residential projects are completed within 2-5 days depending on the area size and material type."
+        },
+        {
+          "question": "Can you install flooring over my existing floor?",
+          "answer": "In some cases, yes. However, we usually recommend removing old flooring to ensure the best possible results."
+        },
+        {
+          "question": "Do you provide warranties on flooring installations?",
+          "answer": "Yes, we offer a comprehensive workmanship warranty in addition to the manufacturer's material warranty."
+        }
+      ],
+      "stats": [
+        {
+          "label": "Sq. Ft. Installed",
+          "value": "50",
+          "suffix": "k+"
+        },
+        {
+          "label": "Material Options",
+          "value": "200",
+          "suffix": "+"
+        },
+        {
+          "label": "Expert installers",
+          "value": "15",
+          "suffix": "+"
+        }
+      ],
       "cta": "We focus on durability, clean finishing, and long-lasting results."
     },
     {
@@ -54,6 +162,7 @@
       "title": "Plumbing Services",
       "shortDescription": "Professional plumbing repair and maintenance services for common and complex issues.",
       "description": "Looking for plumbing repair or maintenance services? Our team handles common and complex plumbing issues with care and efficiency.",
+      "detailedDescription": "Don't let plumbing issues disrupt your home's comfort. Our licensed plumbers provide fast, reliable solutions for everything from leaky faucets and clogged drains to water heater installations and emergency pipe repairs. We use advanced diagnostic tools to identify problems quickly and implement long-lasting fixes that protect your property from water damage.",
       "icon": "droplet",
       "image": "/images/services/plumbing.webp",
       "features": [
@@ -69,6 +178,59 @@
         "Quality parts and materials",
         "Preventive maintenance"
       ],
+      "process": [
+        {
+          "title": "Rapid Diagnosis",
+          "description": "We identify the root cause of the plumbing issue using advanced leak detection tools.",
+          "icon": "search"
+        },
+        {
+          "title": "Upfront Quote",
+          "description": "We provide a transparent estimate before any work begins, so there are no surprises.",
+          "icon": "file-text"
+        },
+        {
+          "title": "Expert Repair",
+          "description": "Our plumbers execute repairs efficiently using high-quality parts and materials.",
+          "icon": "wrench"
+        },
+        {
+          "title": "System Testing",
+          "description": "We rigorously test the system after repair to ensure everything is working perfectly.",
+          "icon": "droplet"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Do you offer emergency plumbing services?",
+          "answer": "Yes, we provide 24/7 emergency plumbing support for critical issues like burst pipes or major leaks."
+        },
+        {
+          "question": "How can I prevent my drains from clogging?",
+          "answer": "Avoid pouring grease down the sink and use drain catchers to prevent hair and debris from entering the pipes."
+        },
+        {
+          "question": "Should I repair or replace my water heater?",
+          "answer": "If your heater is over 10 years old or constantly leaking, replacement is often more cost-effective than frequent repairs."
+        }
+      ],
+      "stats": [
+        {
+          "label": "Service Calls",
+          "value": "2500",
+          "suffix": "+"
+        },
+        {
+          "label": "Emergency Response",
+          "value": "60",
+          "suffix": "min"
+        },
+        {
+          "label": "Licensed Pros",
+          "value": "10",
+          "suffix": "+"
+        }
+      ],
       "cta": "Fast response and proper solutions keep your home safe from water damage."
     },
     {
@@ -77,6 +239,7 @@
       "title": "Electrical Services",
       "shortDescription": "Safe and professional electrical services following proper safety standards.",
       "description": "Recommendation for safe and professional electrical services for your home. We follow proper safety standards for every job.",
+      "detailedDescription": "Safety is our top priority when it comes to your home's electrical systems. Our certified electricians handle a wide range of tasks, from minor switch repairs and lighting upgrades to full home rewiring and panel installations. We ensure all work meets current safety codes, providing you with reliable power and peace of mind.",
       "icon": "zap",
       "image": "/images/services/electrical.webp",
       "features": [
@@ -92,6 +255,59 @@
         "Safety inspections",
         "Energy-efficient solutions"
       ],
+      "process": [
+        {
+          "title": "Safety Inspection",
+          "description": "We begin with a thorough inspection of your electrical system to identify hazards.",
+          "icon": "shield-check"
+        },
+        {
+          "title": "Requirement Analysis",
+          "description": "Reviewing your power needs and planning the most efficient electrical layout.",
+          "icon": "activity"
+        },
+        {
+          "title": "Professional Install",
+          "description": "Safe installation or repair following strict National Electrical Code (NEC) standards.",
+          "icon": "zap"
+        },
+        {
+          "title": "Compliance Check",
+          "description": "Final testing and verification to ensure 100% safety and code compliance.",
+          "icon": "check-circle"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What should I do if a circuit breaker keeps tripping?",
+          "answer": "This could indicate an overloaded circuit or a more serious grounded wire. Contact us for a safety inspection immediately."
+        },
+        {
+          "question": "Are you licensed and insured for electrical work?",
+          "answer": "Absolutely. Our team consists of fully licensed master and journeyman electricians who are fully insured."
+        },
+        {
+          "question": "Can you help me make my home more energy efficient?",
+          "answer": "Yes, we can install LED lighting, smart home controllers, and energy-efficient appliances to lower your bills."
+        }
+      ],
+      "stats": [
+        {
+          "label": "Safe Installations",
+          "value": "3000",
+          "suffix": "+"
+        },
+        {
+          "label": "Certified Electricians",
+          "value": "8",
+          "suffix": "+"
+        },
+        {
+          "label": "Years Experience",
+          "value": "15",
+          "suffix": "+"
+        }
+      ],
       "cta": "Our electricians ensure reliable power and peace of mind."
     },
     {
@@ -100,6 +316,7 @@
       "title": "Renovation Services",
       "shortDescription": "Home renovation services that improve comfort, functionality, and value.",
       "description": "Looking for home renovation services that improve comfort and value? We manage renovation projects with clear planning and skilled execution.",
+      "detailedDescription": "Transform your living space with our comprehensive home renovation services. Whether you're dreaming of a modern gourmet kitchen, a spa-like master bathroom, or a complete home makeover, we bring your vision to life. Our project managers and skilled tradespeople handle every aspect từ design to completion, ensuring high-quality results and a stress-free experience.",
       "icon": "hammer",
       "image": "/images/services/renovation.webp",
       "features": [
@@ -115,6 +332,59 @@
         "Project management",
         "On-time completion"
       ],
+      "process": [
+        {
+          "title": "Consultation & Design",
+          "description": "We meet to discuss your vision, budget, and design preferences for the renovation.",
+          "icon": "pencil-ruler"
+        },
+        {
+          "title": "Project Planning",
+          "description": "Detailed scheduling, material sourcing, and obtaining necessary permits for the project.",
+          "icon": "calendar-days"
+        },
+        {
+          "title": "Expert Construction",
+          "description": "Our skilled team manages all trades to build your dream space with quality craftsmanship.",
+          "icon": "hammer"
+        },
+        {
+          "title": "Reveal & Handover",
+          "description": "A final walkthrough to ensure every detail is perfect before we hand over your new space.",
+          "icon": "key"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "How do you handle changes during the renovation process?",
+          "answer": "We use a formal change order process to document any adjustments to the scope, timeline, or budget."
+        },
+        {
+          "question": "Do I need to move out during a whole home renovation?",
+          "answer": "Depending on the scope, it's often more comfortable. We can discuss phasing if you need to stay in the home."
+        },
+        {
+          "question": "What is the typical ROI on a kitchen or bath renovation?",
+          "answer": "Kitchen and bathroom renovations typically offer the highest return on investment, often between 60-80%."
+        }
+      ],
+      "stats": [
+        {
+          "label": "Projects Completed",
+          "value": "150",
+          "suffix": "+"
+        },
+        {
+          "label": "Repeat Clients",
+          "value": "40",
+          "suffix": "%"
+        },
+        {
+          "label": "Project Managers",
+          "value": "5",
+          "suffix": "+"
+        }
+      ],
       "cta": "We turn outdated spaces into functional, modern living areas."
     },
     {
@@ -123,6 +393,7 @@
       "title": "Fence Services",
       "shortDescription": "Strong and visually clean fencing solutions for residential properties.",
       "description": "Recommendation for fence installation and repair services for residential properties. We provide strong and visually clean fencing solutions.",
+      "detailedDescription": "Enhance your property's privacy, security, and curb appeal with our professional fencing services. We offer a wide variety of styles and materials, including classic wood, durable vinyl, sleek aluminum, and secure chain link. Whether you're looking to enclose your backyard for pets or add a decorative boundary to your home, our expert installers provide durable and beautiful results.",
       "icon": "fence",
       "image": "/images/services/fence.webp",
       "features": [
@@ -138,6 +409,59 @@
         "Property value enhancement",
         "Security improvement"
       ],
+      "process": [
+        {
+          "title": "Site Survey",
+          "description": "We measure your property line and identify any terrain challenges or utility lines.",
+          "icon": "map"
+        },
+        {
+          "title": "Style Selection",
+          "description": "Choose from various materials and heights that best suit your privacy and security needs.",
+          "icon": "palette"
+        },
+        {
+          "title": "Steady Installation",
+          "description": "Setting posts deep in concrete and ensuring the fence is perfectly level and secure.",
+          "icon": "construction"
+        },
+        {
+          "title": "Quality Review",
+          "description": "Final inspection to ensure the gate works perfectly and the fence exceeds expectations.",
+          "icon": "check-circle"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Which fencing material is most durable?",
+          "answer": "Vinyl and aluminum are extremely durable and low-maintenance, while treated wood is great for a classic look."
+        },
+        {
+          "question": "Do I need a permit for a new fence installation?",
+          "answer": "Most areas require a permit for fences over a certain height. We handle the permit process for you."
+        },
+        {
+          "question": "How long does a fence installation typically take?",
+          "answer": "A standard residential fence installation usually takes 2-4 days, depending on the fence length and terrain."
+        }
+      ],
+      "stats": [
+        {
+          "label": "Miles Installed",
+          "value": "25",
+          "suffix": "+"
+        },
+        {
+          "label": "Styles Available",
+          "value": "12",
+          "suffix": "+"
+        },
+        {
+          "label": "Year Warranty",
+          "value": "5",
+          "suffix": ""
+        }
+      ],
       "cta": "Our fences enhance security and curb appeal."
     },
     {
@@ -146,6 +470,7 @@
       "title": "Garage Door Services",
       "shortDescription": "Efficient garage door repair, installation, and maintenance services.",
       "description": "Looking for garage door repair or maintenance services? We handle mechanical issues and upgrades efficiently.",
+      "detailedDescription": "Your garage door is a primary entry point and a major part of your home's curb appeal. We provide expert repair and installation services for all makes and models. From fixing broken springs and noisy tracks to installing modern, insulated doors with smart openers, our technicians ensure your garage door operates smoothly, safely, and quietly.",
       "icon": "door-open",
       "image": "/images/services/garage-door.webp",
       "features": [
@@ -161,6 +486,59 @@
         "Safety inspections",
         "Warranty coverage"
       ],
+      "process": [
+        {
+          "title": "System Audit",
+          "description": "Comprehensive check of springs, cables, rollers, and opener for any wear or issues.",
+          "icon": "clipboard-check"
+        },
+        {
+          "title": "Parts Replacement",
+          "description": "Using high-cycle springs and heavy-duty parts for long-lasting performance.",
+          "icon": "refresh-cw"
+        },
+        {
+          "title": "Alignment & Tune-up",
+          "description": "Precise track alignment and lubrication of all moving parts for quiet operation.",
+          "icon": "settings-2"
+        },
+        {
+          "title": "Safety Testing",
+          "description": "We test the photo-eye sensors and auto-reverse mechanisms for your safety.",
+          "icon": "shield-check"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can I replace a broken garage door spring myself?",
+          "answer": "No. Springs are under extreme tension and can be very dangerous. This must be handled by a professional technician."
+        },
+        {
+          "question": "Why is my garage door so noisy when it opens?",
+          "answer": "This is often due to worn rollers or the need for lubrication. A professional tune-up can usually fix this quickly."
+        },
+        {
+          "question": "How often should my garage door be serviced?",
+          "answer": "We recommend a professional safety check and tune-up once a year to prolong the life of your door and opener."
+        }
+      ],
+      "stats": [
+        {
+          "label": "Doors Repaired",
+          "value": "5000",
+          "suffix": "+"
+        },
+        {
+          "label": "Springs replaced",
+          "value": "1200",
+          "suffix": "+"
+        },
+        {
+          "label": "Emergency Support",
+          "value": "24",
+          "suffix": "/7"
+        }
+      ],
       "cta": "Reliable garage doors improve both safety and convenience."
     },
     {
@@ -169,6 +547,7 @@
       "title": "Handyman Services",
       "shortDescription": "General handyman services for everyday home repairs and maintenance.",
       "description": "Recommendation for general handyman services for everyday home repairs. Ideal for small fixes and ongoing maintenance.",
+      "detailedDescription": "Crossing items off your honey-do list has never been easier. Our multi-skilled handymen are experts at tackling the small but important tasks that keep your home running smoothly. From mounting TVs and fixing leaky faucets to installing ceiling fans and repairing drywall, no job is too small for our reliable and professional team.",
       "icon": "wrench",
       "image": "/images/services/handyman.webp",
       "features": [
@@ -183,6 +562,59 @@
         "Flexible scheduling",
         "Affordable rates",
         "One call for multiple jobs"
+      ],
+      "process": [
+        {
+          "title": "Task Listing",
+          "description": "Tell us all the small tasks and repairs you need help with in one go.",
+          "icon": "list-todo"
+        },
+        {
+          "title": "Efficient Dispatch",
+          "description": "We send a multi-skilled technician equipped with the right tools for your specific list.",
+          "icon": "truck"
+        },
+        {
+          "title": "Quality Execution",
+          "description": "Our professionals work through your list efficiently, maintaining high quality on every task.",
+          "icon": "smile"
+        },
+        {
+          "title": "Area Cleanup",
+          "description": "We ensure your home is left clean and tidy after all the tasks are completed.",
+          "icon": "sparkles"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Do you charge by the hour or by the job?",
+          "answer": "For handyman services, we typically provide a transparent flat rate or an hourly rate depending on the list of tasks."
+        },
+        {
+          "question": "Can you handle multiple different tasks in one visit?",
+          "answer": "Yes! In fact, that's the most efficient way to use our handyman services. We encourage 'task bundling'."
+        },
+        {
+          "question": "Do I need to provide the materials or tools?",
+          "answer": "We come fully equipped with tools. You can provide specific fixtures, or we can source them for you for an additional fee."
+        }
+      ],
+      "stats": [
+        {
+          "label": "Small Fixes Done",
+          "value": "10",
+          "suffix": "k+"
+        },
+        {
+          "label": "Bundled Tasks",
+          "value": "4500",
+          "suffix": "+"
+        },
+        {
+          "label": "Avg. job time",
+          "value": "2-4",
+          "suffix": "hrs"
+        }
       ],
       "cta": "One call takes care of multiple small jobs."
     }

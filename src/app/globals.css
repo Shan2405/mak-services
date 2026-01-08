@@ -157,6 +157,22 @@
   }
 }
 
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes shimmer {
+  from {
+    stroke-dashoffset: 0;
+  }
+
+  to {
+    stroke-dashoffset: 16;
+  }
+}
+
 /* Base Styles */
 html {
   scroll-behavior: smooth;
