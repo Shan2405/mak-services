@@ -57,7 +57,7 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ isOpen, onClose }) => {
           <Link href="/" onClick={onClose} className="flex items-center gap-3 group">
             <div className="relative w-12 h-12 shrink-0">
               <Image
-                src="/icon-blue.png"
+                src="/icon.png"
                 alt="Mark Repair Services"
                 fill
                 className="object-contain"

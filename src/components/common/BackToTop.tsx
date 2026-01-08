@@ -34,7 +34,7 @@ const BackToTop: React.FC<BackToTopProps> = ({
     <button
       onClick={scrollToTop}
       className={`
-        fixed bottom-6 right-6 z-fixed
+        fixed bottom-6 right-6 z-100
         cursor-pointer
         w-12 h-12 rounded-full
         bg-primary text-text-white
